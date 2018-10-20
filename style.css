@@ -1,0 +1,8 @@
+*{margin:0;padding:0;outline:0}
+body{font-family:verdana;font-size:12px;line-height:16px;}
+.clear{overflow:hidden}
+.template{width:1000px;margin:0 auto}
+a{color:#000;font-weight:bold;text-decoration:none;}
+a:hover{text-decoration:underline;}
+h1, h2, h3, h4, h5, h6{font-weight:normal}
+p{margin-bottom:15px;}
