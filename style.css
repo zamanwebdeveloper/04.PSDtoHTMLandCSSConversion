@@ -47,14 +47,34 @@ p{margin-bottom:15px;}
 	padding: 4px;
 	cursor:pointer;
 }
-.menusection{}
-.menuleft{}
-.menuleft ul{}
-.menuleft ul li{}
-.menuleft ul li a{}
+.menusection{background:#EAF2F4;}
+.menuleft {
+	float: left;
+	width: 700px;
+	margin-right: 25px;
+}
+.menuleft ul{margin:0px; padding:0px; list-style:none;}
+.menuleft ul li {
+	float: left;
+	display: block;
+	padding: 15px 25px;
+	font-size: 14px;
+	border-right: 1px solid #ADBCBF;
+	margin: 5px 0px;
+}
+.menuleft ul li:last-child{border-right: 0px solid #ADBCBF;}
+.menuleft ul li a{display:block;color:#8E9191;}
 .menuleft ul li a:hover{}
-.menuright{}
-.menuright p{}
+
+.menuright {
+	float: right;
+	width: 250px;
+	color: #5D655A;
+	margin-top: 10px;
+}
+.menuright p {
+	margin: 0px;
+}
 .bannersection{}
 .bannerleft{}
 .bannerleft h2{}
