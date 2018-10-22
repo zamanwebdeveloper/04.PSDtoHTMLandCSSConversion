@@ -6,3 +6,106 @@ a{color:#000;font-weight:bold;text-decoration:none;}
 a:hover{text-decoration:underline;}
 h1, h2, h3, h4, h5, h6{font-weight:normal}
 p{margin-bottom:15px;}
+.headsection {
+	height: 60px;
+	background: #EAF2F4;
+	border-top: 5px solid #4D4E49;
+	border-bottom: 2px solid #B2C0C3;
+}
+.headerleft {
+	float: left;
+	width: 534px;
+	margin-right: 50px;
+	font-family: georgia;
+	color:#4D4E49;
+}
+.headerleft h2 {
+	float: left;
+	font-size: 33px;
+	padding-left: 20px;
+	line-height: 40px;
+	padding-right: 45px;
+	border-right: 1px solid;
+	margin-top: 8px;
+}
+.headerleft p {
+	float: left;
+	font-size: 16px;
+	margin-top: 20px;
+	margin-left: 12px;
+}
+.headerright {
+	float: right;
+	width: 300px;
+	margin-top: 16px;
+	margin-right: 20px;
+}
+.headerright input[type="text"]{width:245px; background:#D5E5E8; border:1px solid #a1bcc2; padding:5px; margin-right:3px;}
+.headerright input[type="submit"] {
+	background: #D5E5E8;
+	border: 1px solid #a1bcc2;
+	padding: 4px;
+	cursor:pointer;
+}
+.menusection{}
+.menuleft{}
+.menuleft ul{}
+.menuleft ul li{}
+.menuleft ul li a{}
+.menuleft ul li a:hover{}
+.menuright{}
+.menuright p{}
+.bannersection{}
+.bannerleft{}
+.bannerleft h2{}
+.bannerleft p{}
+
+.bannerlink{}
+.banlink{}
+.banlink a{}
+.banlink a:hover{}
+.bannerrright{}
+.bannerrright img{}
+
+.servicesection{}
+.services{}
+.services h2{}
+.services h3{}
+.services p{}
+.services a{}
+.services a:hover{}
+
+.contentsection{}
+.contentleft{}
+.contentleft h2{}
+
+.contentleftdesc{}
+.leftimage{}
+.leftimage img{}
+.righttext{}
+.righttext h4{}
+.righttext p{}
+.righttext a{}
+.righttext a:hover{}
+
+.contentright{}
+.contentright h2{}
+.contentright img{}
+.contentright p{}
+
+.footertop{}
+.samefooter{}
+.samefooter h2{}
+.samefooter p{}
+.samefooter input[type="text"]{}
+.samefooter input[type="submit"]{}
+.samefooter a{}
+.samefooter a:hover{}
+
+.footerbottom{}
+.footerleft{}
+.footerleft p{}
+
+.footerright{}
+.footerright p{}
+
