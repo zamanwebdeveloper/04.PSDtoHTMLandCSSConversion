@@ -1,7 +1,12 @@
 *{margin:0;padding:0;outline:0}
 body{font-family:verdana;font-size:12px;line-height:16px;}
 .clear{overflow:hidden}
-.template{width:1000px;margin:0 auto}
+.template {
+	width: 1000px;
+	margin: 0 auto;
+	border-left: 1px solid #909EA1;
+	border-right: 1px solid #909EA1;
+}
 a{color:#000;font-weight:bold;text-decoration:none;}
 a:hover{text-decoration:underline;}
 h1, h2, h3, h4, h5, h6{font-weight:normal}
@@ -71,9 +76,9 @@ p{margin-bottom:15px;}
 
 .menuright {
 	float: right;
-	width: 250px;
+	width: 260px;
 	color: #5D655A;
-	margin-top: 10px;
+	margin-top: 6px;
 }
 .menuright p {
 	margin: 0px;
@@ -111,10 +116,11 @@ p{margin-bottom:15px;}
 }
 
 .banlink a {
-	color: #333333;
+	color: #444;
 	font-size: 20px;
 	text-align: center;
 	font-weight: normal;
+	font-family:georgia;
 }
 .banlink a:hover{}
 
@@ -169,6 +175,7 @@ p{margin-bottom:15px;}
 .sameservice p{color: #666666;}
 .sameservice a {
 	float: right;
+	color: #666;
 }
 .sameservice a:hover{}
 
@@ -230,8 +237,16 @@ p{margin-bottom:15px;}
 	color: #666;
 	margin-bottom: 10px;
 }
-.footertop{background:url(images/footerbg.png)repeat}
-.samefooter{width:300px; float:left; margin-left:20px;}
+.footertop {
+	background: url(images/footerbg.png)repeat;
+	height: 220px;
+	border-bottom: 2px solid #3D3D3D;
+}
+.samefooter {
+	width: 306px;
+	float: left;
+	margin-left: 20px;
+}
 .samefooter h2 {
 	font-family: georgia;
 	font-size: 21px;
@@ -254,7 +269,10 @@ p{margin-bottom:15px;}
 	border: 1px solid #fff;
 	cursor: pointer;
 }
-.samefooter a{color:#b5b5b5;}
+.samefooter p {
+	color: #b5b5b5;
+	margin-bottom: 10px;
+}
 .samefooter ul{margin:0px; padding:0px; list-style:none;}
 .samefooter ul li{
 	padding-bottom:5px;
@@ -262,9 +280,13 @@ p{margin-bottom:15px;}
 .samefooter ul li a{color:#049BAC; font-weight:normal;}
 .samefooter a:hover{}
 
-.footerbottom{}
-.footerleft{}
+.footerbottom {
+	background: url(images/footerbottombg.png)repeat;
+	color: #fff;
+	padding-top: 15px;
+}
+.footerleft{float:left; margin-left:20px;}
 .footerleft p{}
 
-.footerright{}
+.footerright{float:right; margin-right:20px;}
 .footerright p{}
